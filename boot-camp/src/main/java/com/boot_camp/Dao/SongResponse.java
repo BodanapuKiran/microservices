@@ -7,7 +7,7 @@ public class SongResponse {
 	private String film;
 
 	
-	  private MovieResponse movieResponse;
+	  private MovieResponse  movieResponse;
 	  
 	  public MovieResponse getMovieResponse() {
 		  return movieResponse;

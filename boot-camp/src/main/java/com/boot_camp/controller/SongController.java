@@ -27,7 +27,7 @@ public class SongController {
 		return new ResponseEntity<SongResponse>(recieved, HttpStatus.FOUND);
 	}
 	
-	@GetMapping("/allsongs")
+	@GetMapping("/allsong")
 	public ResponseEntity<List<SongResponse>> findAllSongs(){
 		List<SongResponse> allSongs = songService.getAllSongs();
 		return new ResponseEntity<List<SongResponse>>(allSongs,HttpStatus.OK);
